@@ -1,0 +1,30 @@
+{
+  "name": "ghost-of-gatsby-local",
+  "version": "1.0.0",
+  "description": "Node.js and Express based build server for Ghost headless CMS and Gatsby.js intergation running locally. It builds the Gatsby site locally, and pushes to GitHub to deploy using Netlify. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pitt-Pauly/ghost-of-gatsby-build-service.git"
+  },
+  "keywords": [
+    "ghost",
+    "gatsby.js",
+    "netlify",
+    "local",
+    "open-source"
+  ],
+  "author": "Pitt Pauly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pitt-Pauly/ghost-of-gatsby-build-service/issues"
+  },
+  "homepage": "https://github.com/Pitt-Pauly/ghost-of-gatsby-build-service#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
